@@ -22,10 +22,12 @@ end
 
 
 
-def list 
+def list(songs)
+ "1, {songs[0]}" 
 end
 
-
+def play
+end
 
 def exit_jukebox
 end 
