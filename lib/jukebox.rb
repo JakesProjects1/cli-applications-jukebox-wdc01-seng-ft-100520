@@ -21,15 +21,13 @@ def help
 end
 
 
-
-def list(songs)
- def list(my_songs)
+def list(my_songs)
    i = 1
    my_songs.each_key do |song|
     puts "#{i}. #{song}"
     i += 1
-  end
-end	end
+   end
+end
 
 def play(songs)
   puts "Please enter a song name or number:"
