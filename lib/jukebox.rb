@@ -60,7 +60,7 @@ def run(my_songs)
   when "help"
     help
   when "exit"
-    
+    exit_jukebox
   
   case command 
     when 'list'
