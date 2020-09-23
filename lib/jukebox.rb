@@ -53,7 +53,7 @@ def run(songs)
   input = gets.chomp
   case input 
   when "play"
-    play(my_songs)
+    play(song)
   when "list"
     list(my_songs)
   when "help"
