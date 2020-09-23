@@ -13,7 +13,9 @@ songs = [
 ]
 
 def help
- puts songs 
+ puts "I accept the following commands:" 
+ puts "- help: displays this help message"
+ puts "- list:"
 end
 
 def play
