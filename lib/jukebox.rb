@@ -27,7 +27,7 @@ def list(my_songs)
   end
 end
 
-def play(my_songs)
+def play(songs)
   puts "Please enter a song name:"
   input = gets.chomp
   my_songs.each_key do |song|
