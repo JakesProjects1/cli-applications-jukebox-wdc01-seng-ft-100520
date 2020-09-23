@@ -37,9 +37,8 @@ def play(my_songs)
       system "open " + my_songs[song]
       break
     end 
-
   end
-end	end
+end	
 
 
 def exit_jukebox
