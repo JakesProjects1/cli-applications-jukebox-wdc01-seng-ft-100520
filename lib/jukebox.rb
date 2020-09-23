@@ -61,7 +61,8 @@ def run(my_songs)
     help
   when "exit"
     exit_jukebox
-  
+  else
+    puts ""
   case command 
     when 'list'
       list(songs)
