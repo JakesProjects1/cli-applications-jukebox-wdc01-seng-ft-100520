@@ -51,7 +51,9 @@ def run(my_songs)
   input = "" 
   while input != "exit"  
   puts "Please enter a command:"
-  command = gets.downcase.strip  
+  input = gets.chomp
+  command = gets.downcase.strip 
+  
   case command 
     when 'list'
       list(songs)
