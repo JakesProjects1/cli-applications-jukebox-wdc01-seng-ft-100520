@@ -22,7 +22,7 @@ end
 
 
 def list(songs)
-  
+   puts my_songs.keys.to_s
 
 def play(songs)
   puts "Please enter a song name:"
