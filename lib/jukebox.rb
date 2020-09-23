@@ -26,7 +26,7 @@ def list(songs)
  puts  "{index +1}. {songs}"
 end
 
-def play
+def play(songs)
 end
 
 def exit_jukebox
