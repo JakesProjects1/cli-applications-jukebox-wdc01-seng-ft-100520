@@ -23,7 +23,7 @@ end
 
 
 def list(songs)
- puts  "{index +1} {songs"
+ puts  "{index +1}. {songs}"
 end
 
 def play
