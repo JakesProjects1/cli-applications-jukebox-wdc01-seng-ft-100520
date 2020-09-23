@@ -21,7 +21,7 @@ def help
 end
 
 
-def list(songs)
+def list(my_songs)
    puts my_songs.keys.to_s
 end 
 
