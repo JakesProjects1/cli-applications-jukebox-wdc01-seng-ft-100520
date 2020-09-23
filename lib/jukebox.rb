@@ -20,5 +20,5 @@ end
 def exit_jukebox
 end 
 
-def run_jukebox
+def run
 end 
