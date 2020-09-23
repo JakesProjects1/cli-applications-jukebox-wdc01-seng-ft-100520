@@ -50,10 +50,9 @@ def prompt()
   gets.chomp()
 end
 
-def run
-  def run(my_songs)
-  help()
-  input = prompt()
+def run(my_songs)
+ help()
+ input = prompt()
   
   while input != "exit"
     if input == "list"
