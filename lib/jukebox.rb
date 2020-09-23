@@ -22,7 +22,10 @@ end
 
 
 def list(my_songs)
-  
+  songs.each_with_index do |song, i|
+    puts "#{i+1}. #{song}"
+  end
+end
 
 def play(my_songs)
   puts "Please enter a song name:"
