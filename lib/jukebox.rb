@@ -55,6 +55,8 @@ def run(my_songs)
   case input 
   when "play"
     play(my_songs)
+  when "list"
+    
   
   case command 
     when 'list'
