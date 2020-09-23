@@ -49,7 +49,7 @@ end
 def run(my_songs)
   help 
   input = "" 
-  while command  
+  while input != "exit"  
   puts "Please enter a command:"
   command = gets.downcase.strip  
   case command 
