@@ -21,9 +21,7 @@ def help
 end
 
 
-def list(my_songs)
-   puts my_songs.keys.to_s
-end 
+
 
 def play(my_songs)
   input = gets.chomp
