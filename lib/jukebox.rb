@@ -52,7 +52,7 @@ def run(my_songs)
   while input != "exit"  
   puts "Please enter a command:"
   input = gets.chomp
-  case
+  case input 
   
   case command 
     when 'list'
