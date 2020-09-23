@@ -44,4 +44,23 @@ def exit_jukebox
   puts "Goodbye"
 end 
 
-
+def run(songs)
+  help
+  input = ""
+  while input != "exit"
+    puts "Please enter a command:"
+    input = gets.chomp
+    case input
+    when "play"
+      play(song)
+    when "list"
+      list(songs)
+    when "help"
+      help
+    when "exit"
+      exit_jukebox    
+    else
+      puts "Invalid input, please try again"
+    end
+  end
+end
