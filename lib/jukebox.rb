@@ -54,7 +54,7 @@ def run(my_songs)
   input = gets.chomp
   case input 
   when "play"
-    
+    play(my_songs)
   
   case command 
     when 'list'
