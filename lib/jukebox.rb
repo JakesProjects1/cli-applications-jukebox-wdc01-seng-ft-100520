@@ -62,7 +62,7 @@ def run(my_songs)
   when "exit"
     exit_jukebox
   else
-    puts ""
+    puts "Invalid input, please try again"
   case command 
     when 'list'
       list(songs)
