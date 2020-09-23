@@ -27,15 +27,7 @@ def list(songs)
   end
 end
 
-def play(my_songs)
-  input = gets.chomp
-  if my_songs.include?(input)
-    puts "Playing #{input}"
-    open my_songs[input]
-  else
-    puts "Invalid input, please try again"
-  end
-end
+
 
 
 def exit_jukebox
