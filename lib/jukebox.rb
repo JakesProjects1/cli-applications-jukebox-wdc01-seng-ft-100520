@@ -63,19 +63,5 @@ def run(my_songs)
     exit_jukebox
   else
     puts "Invalid input, please try again"
-  case command 
-    when 'list'
-      list(songs)
-      when 'play'
-        list(songs)
-        play(songs)
-      when 'help'
-        help 
-      when 'exit'
-        exit_jukebox
-        break 
-      else 
-        help 
-      end 
-    end 
-  end 
+    
+  
