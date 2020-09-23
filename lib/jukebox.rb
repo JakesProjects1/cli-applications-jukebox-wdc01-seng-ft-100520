@@ -29,7 +29,7 @@ end
 
 def play(songs)
   puts "Please enter a song name or number:"
- user_response = gets.strip
+ user_response = gets.chomp()
   
  if (1..9).to_a.index(input.to_i) != nil
     puts "Playing #{my_songs[input.to_i - 1]}"
