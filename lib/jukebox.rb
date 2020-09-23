@@ -53,6 +53,8 @@ def run(my_songs)
   puts "Please enter a command:"
   input = gets.chomp
   case input 
+  when "play"
+    
   
   case command 
     when 'list'
